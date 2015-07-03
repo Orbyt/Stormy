@@ -1,13 +1,15 @@
-package orbyt.stormy;
+package orbyt.stormy.weather;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
 
+import orbyt.stormy.R;
+
 /**
  * Created by main on 6/30/2015.
  */
-public class CurrentWeather {
+public class Current {
 
     private String mIcon;
     private long mTime;
